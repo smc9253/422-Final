@@ -1,0 +1,22 @@
+{
+    "name": "documentparser",
+    "version": "1.0.0",
+    "description": "A Vanilla JS based Document Parsing System.",
+    "main": "./src/service.js",
+    "engines": {
+        "node": "22.15.0"
+    },
+    "scripts": {
+    },
+    "author": "Nick Snyder",
+    "license": "MIT",
+    "dependencies": {
+        "chokidar": "^4.0.3",
+        "csv": "^6.3.11",
+        "dotenv": "^16.5.0",
+        "jest": "^29.7.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.10"
+    }
+}

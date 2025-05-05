@@ -1,0 +1,5 @@
+{
+    "watched": "../inbound",
+    "output": "../outbound",
+    "processed": "../processed"
+}
