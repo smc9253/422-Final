@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  parser:
+    build: .
+    restart: unless-stopped
+    volumes:
+      - ./inbound:/usr/src/app/inbound
+      - ./outbound:/usr/src/app/outbound
+      - ./processed:/usr/src/app/processed
+    command: node src/service.js
